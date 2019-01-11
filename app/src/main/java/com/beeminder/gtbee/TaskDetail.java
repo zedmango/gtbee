@@ -3,7 +3,7 @@ package com.beeminder.gtbee;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,7 +14,7 @@ import com.beeminder.gtbee.data.Contract;
 import java.util.Calendar;
 
 
-public class TaskDetail extends ActionBarActivity {
+public class TaskDetail extends AppCompatActivity {
     private final String LOG_TAG = this.getClass().getSimpleName();
     public long mTaskId;
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GTBee.iml" filepath="$PROJECT_DIR$/GTBee.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gtbee.iml" filepath="$PROJECT_DIR$/gtbee.iml" />
     </modules>
   </component>
 </project>

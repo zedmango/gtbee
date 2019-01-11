@@ -4,7 +4,7 @@ import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -26,7 +26,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class BeeminederIntActivity extends ActionBarActivity {
+public class BeeminederIntActivity extends AppCompatActivity {
     public String[] mGoals;
     public static final String BEEMINDER_GOAL = "com.beeminder.gtbee.beeminder_goal";
     public boolean goalSet = false;

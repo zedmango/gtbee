@@ -14,7 +14,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -38,7 +38,7 @@ import java.util.Date;
 import java.util.regex.Pattern;
 
 
-public class NewTask extends ActionBarActivity implements TimePickerDialog.OnTimeSetListener,
+public class NewTask extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener,
         NewTaskFragment.DateListener,
         DatePickerDialog.OnDateSetListener{
 
